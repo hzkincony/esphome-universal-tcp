@@ -19,5 +19,5 @@ interval:
     then:
       - lambda: !lambda |-
           auto current = id(current_1).state;
-          id(loxone1).send_string_data("RELAY-GET_energy-255,1," + current + "," + voltage + ",OK");
+          id(universal_tcp1).send_string_data("RELAY-GET_energy-255,1," + current + "," + voltage + ",OK");
 ```
