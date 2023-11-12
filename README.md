@@ -5,7 +5,7 @@
 external_components:
   - source:
       type: git
-      url: https://github.com/hzkincony/universal-loxone
+      url: https://github.com/hzkincony/universal-tcp
       ref: v1.0.0
 
 universal_tcp:
