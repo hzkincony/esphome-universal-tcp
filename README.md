@@ -11,8 +11,6 @@ external_components:
 universal_tcp:
   id: universal_tcp1
   local_port: 8888 # esp32 will listen on this port
-  delimiter: ""
-  send_buffer_length: 64
 
 interval:
   - interval: 1min
