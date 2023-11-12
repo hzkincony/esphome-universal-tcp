@@ -5,7 +5,7 @@
 external_components:
   - source:
       type: git
-      url: https://github.com/hzkincony/universal-tcp
+      url: https://github.com/hzkincony/esphome-universal-tcp
       ref: v1.0.0
 
 universal_tcp:
